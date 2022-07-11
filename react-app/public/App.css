@@ -1,0 +1,252 @@
+html, body {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-x: hidden;
+
+}
+@media screen and (max-width: 768px) {
+  .header {
+    height: 270px;
+    background-color: black;
+    border-radius: 0 0 35% 35%;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+  }
+  .date {
+    font-style: italic;
+    margin-left: 30px;
+    color: grey;
+    font-size: 0.8rem;
+  }
+  .menu {
+    margin-left: 9px;
+    padding-top: 5px;
+    width: 30px;
+  }
+  .options {
+    float: right;
+    padding-top: 10px;
+    width: 25px;
+  }
+  .display {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: 25px;
+  }
+  .display div {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .display span {
+    font-size: 1rem;
+    padding-top: 50px;
+    display: block;
+  }
+  #tasks {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+  }
+  .time {
+    font-size: 2rem !important;
+  }
+  .contain-body {}
+  .major-button {
+    padding-top: 120px;
+    width: 80px;
+    margin: auto;
+    padding-bottom: 80px;
+
+  }
+  .major-button button {
+    height: 100px;
+    margin: auto;
+    width: 100px;
+    border-radius: 25%;
+    color: white;
+    font-size: 1.5rem;
+    border: 0;
+    box-shadow: 1px 1px 5px 5px black;
+  }
+  .start {
+    background-color: green;
+  }
+  .start:active {
+    box-shadow: 1px 1px 15px 15px green;
+    font-size: 2.5rem;
+  }
+  .pause:active {
+    box-shadow: 1px 1px 15px 15px red;
+    font-size: 2.5rem;
+  }
+  .pause {
+    background-color: red;
+  }
+  .add {
+    position: relative;
+    left: 69%;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 25px 5px 5px 25px;
+  }
+  .add span {
+    position: relative;
+    padding-left: 10px;
+    font-style: italic;
+    top: -45%;
+  }
+  .add-button {
+    width: 50px;
+  }
+  .title-bar {
+    height: 60px;
+    background-color: grey;
+    position: relative;
+  }
+  .back-button {
+    width: 50px;
+    position: absolute;
+    top: 0px;
+  }
+  .title-bar h2 {
+    width: 80px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  .calender {
+    width: 180px;
+    margin: 50px auto;
+    font-family: 'Ruda', sans-serif;
+  }
+  .calender h2,h4 {
+    margin: 0;
+  }
+  .calender-header {
+    height: 60px;
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 1px 1px 5px 0px black;
+  }
+  .calender-body {
+    height: 200px;
+    padding: 5px;
+    background-color: grey;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 1px 5px 0px black;
+    font-size: 0.8rem;
+  }
+  .today {
+    background-color: black !important;
+    color: grey;
+  }
+  .calender-body ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .prev {
+    float: left;
+  }
+  .mid {
+    text-align: center;
+  }
+  .next {
+    float: right;
+  }
+  .days {
+    padding-top: 10px !important;
+  }
+  .days li, .dayNo li {
+    display: inline-block;
+    width: 14%;
+    line-height: 2;
+    text-align: right;
+    padding-right: 5%;
+    box-sizing: border-box;
+  }
+  .each:active {
+    color: white;
+  }
+  .events {
+    background-color: grey;
+    color: black;
+    min-height: 400px;
+    font-family: 'Ruda', sans-serif;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  .events .head {
+    height: 80px;
+    margin-top: 2px;
+    box-shadow: 0 0 10px 0 black;
+    padding: 5px 20px;
+  }
+  .head h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+  .head h3 {
+    color: white;
+    font-size: 1rem;
+    text-align: right;
+  }
+  .tasks {
+    padding: 5px 20px;
+    font-size: 1rem;
+  }
+  .time-state {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+  }
+  .time-float {
+    width: 170px;
+    float: right;
+    background-color: grey;
+    width: 50% !important;
+    margin-bottom: 20px;
+  }
+  .time-state span {
+    display: inline-block;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .delete {
+    width: 15px;
+    float: right;
+    border-left: 2px solid black;
+    padding-left: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 20px;
+  }
+  .sticky-add {
+    width: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+  }
+
+}
